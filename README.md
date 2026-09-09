@@ -11,6 +11,8 @@ I configured two virtual machines on the same Host-Only network:
 
 The objective was to establish connectivity between the two systems, identify open TCP ports, enumerate running services and service versions, and analyse the security significance of the findings.
 
+![Nmap Installation and Version Verification](Nmap%20Installation%20and%20Version%20Verification.png)
+
 ## Lab Environment
 
 | Component | Configuration |
@@ -49,6 +51,8 @@ The test returned:
 
 This confirmed successful communication between the two virtual machines.
 
+![Successful Connectivity Test](Successful%20Connectivity%20Test.png)
+
 ## 2. Basic Port Scan
 
 I performed an initial Nmap scan against the Metasploitable target:
@@ -78,6 +82,8 @@ Some of the discovered services included:
 | 8009 | AJP13      |
 | 8180 | HTTP       |
 
+![Basic Nmap Scan Results](Basic%20Nmap%20Scan%20Results.png)
+
 ## 3. Service Version Detection
 
 I then performed service and version detection:
@@ -101,6 +107,8 @@ Some notable findings included:
 * **UnrealIRCd** on port 6667
 * **Apache Tomcat** on port 8180
 
+* ![Nmap Service and Version Detection Results](Nmap%20Service%20and%20Version%20Detection%20Results%20(...).png)
+
 ## 4. Security Analysis
 
 The scan demonstrated how exposed network services increase a system's attack surface.
@@ -110,6 +118,8 @@ For example, Telnet provides unencrypted remote communication, while database se
 The presence of a root shell on port 1524 was particularly significant because a root-level shell represents highly privileged system access.
 
 Metasploitable is intentionally vulnerable and was used only as a controlled target within the isolated lab environment.
+
+![Two Virtual Machines and IP Address Configuration](Two%20Virtual%20Machines%20and%20IP%20Address%20Configuration.png)
 
 ## What I Learned
 
