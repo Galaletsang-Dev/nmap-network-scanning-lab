@@ -82,7 +82,7 @@ Some of the discovered services included:
 | 8009 | AJP13      |
 | 8180 | HTTP       |
 
-![Basic Nmap Scan Results](Basic%20Nmap%20Scan%20Results.png)
+![Successful Connectivity Test](https://github.com/Galaletsang-Dev/nmap-network-scanning-lab/blob/main/Successful%20Connectivity%20Test.png?raw=true)
 
 ## 3. Service Version Detection
 
