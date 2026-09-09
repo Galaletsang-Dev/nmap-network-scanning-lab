@@ -51,7 +51,7 @@ The test returned:
 
 This confirmed successful communication between the two virtual machines.
 
-![Successful Connectivity Test](Successful%20Connectivity%20Test.png)
+![Successful Connectivity Test](https://github.com/Galaletsang-Dev/nmap-network-scanning-lab/blob/main/Successful%20Connectivity%20Test.png?raw=true)
 
 ## 2. Basic Port Scan
 
